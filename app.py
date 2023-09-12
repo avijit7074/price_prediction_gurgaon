@@ -137,7 +137,7 @@ if btn1:
         if z >= 1:
             st.write('Predicted Price is :', round(z, 2), 'crores')
         elif z < 1:
-            st.write('Predicted Price is :', z * 100, 'lakhs')
+            st.write('Predicted Price is :', round(z * 100,2), 'lakhs')
 
         st.title('Recommended Properties')
         col6, col7, col8 = st.columns(3)
